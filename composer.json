@@ -1,0 +1,28 @@
+{
+  "name": "baiyutang/leshua-payment",
+  "authors": [
+    {
+      "name": "baiyutang",
+      "homepage": "https://github.com/baiyutang/leshua-payment"
+    }
+  ],
+  "description": "leshua payment sdk",
+  "require": {
+    "php": ">=7.0.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "LeshuaPayment\\": "src/"
+    }
+  },
+  "type": "library",
+  "license": "MIT",
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.16"
+  },
+  "scripts": {
+    "cs-fix": "vendor/bin/php-cs-fixer fix src --using-cache=no"
+  }
+}
