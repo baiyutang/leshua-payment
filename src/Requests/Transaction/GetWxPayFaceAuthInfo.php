@@ -111,6 +111,7 @@ class GetWxPayFaceAuthInfo implements BaseRequest
 
     public function getUrl(): string
     {
+        // 刷脸凭证接口 TODO 暂不确定
         return Config::PAYMENT_API_URL;
     }
 
